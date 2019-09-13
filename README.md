@@ -26,18 +26,18 @@ Aplicação para inserção e consulta de dados por médicos e funcionári
 
 <p align="center">
 	<br>
-	<img src="prints/tela3.PNG"/ >
+	<img src="prints/tela3.png"/ >
 	<br>
 </p>
 
 <p align="center">
 	<br>
-	<img src="prints/tela4.PNG"/ >
+	<img src="prints/tela4.png"/ >
 	<br>
 </p>
 
 <p align="center">
 	<br>
-	<img src="prints/tela5.PNG"/ >
+	<img src="prints/tela5.png"/ >
 	<br>
 </p>
