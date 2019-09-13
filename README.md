@@ -2,9 +2,9 @@
 
 # Introdução
 
-Aplicação de uso geral para qualquer pessoa consultar suas informações,
-análises médicas, problemas de saúde e tratamentos.
-Aplicação para inserção e consulta de dados por médicos e funcionári
+Aplicação de uso geral para cadastrar pascientes e consultar suas informações,<br>
+análises médicas, problemas de saúde e tratamentos.<br>
+Aplicação para inserção e consulta de dados por médicos e funcionários<br>
 
 <p align="center">
 	<br>
