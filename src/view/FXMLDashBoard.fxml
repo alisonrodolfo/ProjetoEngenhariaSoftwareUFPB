@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="751.0" prefWidth="1200.0" styleClass="backgroundClean" stylesheets="@../css/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.Controller.FXMLDashBoardController">
+    
+    <stylesheets>
+        <URL value="@/css/Styles.css" />
+    </stylesheets>
+    <children>
+        <Pane layoutX="7.0" layoutY="95.0" prefHeight="650.0" prefWidth="1200.0">
+         <children>
+            <AnchorPane id="AnchorPaneBack" fx:id="AnchorPaneBack" layoutY="6.0" prefHeight="650.0" prefWidth="1200.0" />
+         </children></Pane>
+        <Pane layoutY="-1.0" prefHeight="80.0" prefWidth="1207.0" styleClass="backgroundTop" stylesheets="@../css/Styles.css">
+            <children>
+                <Button layoutX="147.0" layoutY="24.0" mnemonicParsing="false" onAction="#handleButtonHome" styleClass="buttongreenbin" stylesheets="@../css/Styles.css" text="HOME" textAlignment="CENTER" />
+                <MenuButton layoutX="251.0" layoutY="24.0" mnemonicParsing="false" styleClass="buttongreenbin" stylesheets="@../css/Styles.css" text="PACIENTE" textAlignment="CENTER" textFill="WHITE">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonCadastroPasciente" text="Cadastrar" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaPasciente" text="Consultar/Editar" />
+                   
+                    </items>
+                </MenuButton>
+                <MenuButton layoutX="397.0" layoutY="24.0" mnemonicParsing="false" styleClass="buttongreenbin" text="ATENDIMENTO" textAlignment="CENTER" textFill="WHITE">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonCadastroAtendimento" text="Cadastrar" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaAtendimento" text="Consultar/Editar" />
+                     
+                        
+                    </items>
+                </MenuButton>
+                <MenuButton layoutX="580.0" layoutY="24.0" mnemonicParsing="false" styleClass="buttongreenbin" text="PRONTUARIOS" textAlignment="CENTER" textFill="WHITE">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonCadastroProntuario" text="Cadastrar" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaProntuario" text="Consultar/Editar" />
+                    
+                    </items>
+                </MenuButton>
+            <Pane layoutX="760.0" layoutY="10.0" prefHeight="61.0" prefWidth="402.0">
+               <children>
+                  <MenuButton layoutX="31.0" layoutY="12.0" mnemonicParsing="false" styleClass="buttongreenbin" text="RELATÓRIOS" textAlignment="CENTER" textFill="WHITE">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaFuncionario" text="INSCRIÇÃO " />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaFuncionario" text="Remover Funcionario/Admin" />
+                     </items>
+                  </MenuButton>
+                  <MenuButton layoutX="191.0" layoutY="12.0" mnemonicParsing="false" styleClass="buttongreenbin" text="ADMINISTRAÇÃO" textAlignment="CENTER" textFill="WHITE">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonCadastroFuncionario" text="Cadastrar Funcionario/Admin" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonCadastroMedico" text="Cadastrar Médico" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaFuncionario" text="Consultar/Editar Funcionario/Admin" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleButtonEditaMedico" text="Consultar/Editar Médico" />
+                       
+                     </items>
+                  </MenuButton>
+               </children>
+            </Pane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

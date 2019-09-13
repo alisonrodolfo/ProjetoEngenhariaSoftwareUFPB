@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.Controller.LoginController">
+    <stylesheets>
+        <URL value="@/css/Styles.css" />
+    </stylesheets>
+    <children>
+        <Pane layoutX="40.0" layoutY="76.0" prefHeight="539.0" prefWidth="1129.0" styleClass="backgroundClean">
+            <children>
+                <Button layoutX="586.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="172.0" styleClass="buttongreenbin" text="CONSULTAR VIA CPF " />
+                <TextField id="LoginTextField" fx:id="LoginTextField" layoutX="40.0" layoutY="45.0" prefHeight="31.0" prefWidth="250.0" promptText="Usuario" styleClass="text-input" />
+                <PasswordField id="SenhaPasswordField" fx:id="SenhaPasswordField" layoutX="305.0" layoutY="45.0" prefHeight="31.0" prefWidth="250.0" promptText="Senha" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField1" layoutX="40.0" layoutY="96.0" prefHeight="31.0" prefWidth="516.0" promptText="Nome Completo" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField11" layoutX="40.0" layoutY="142.0" prefHeight="31.0" prefWidth="516.0" promptText="Endereço" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField2" layoutX="41.0" layoutY="281.0" prefHeight="31.0" prefWidth="250.0" promptText="RG" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField3" layoutX="306.0" layoutY="281.0" prefHeight="31.0" prefWidth="250.0" promptText="CPF" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField21" layoutX="42.0" layoutY="328.0" prefHeight="31.0" prefWidth="250.0" promptText="Data de Nascimento" styleClass="text-input" />
+            <ComboBox layoutX="306.0" layoutY="329.0" prefHeight="31.0" prefWidth="250.0">
+                     <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Masculino" />
+                    <String fx:value="Feminino" />
+                    <String fx:value="Não Declarado" />
+                </FXCollections>
+                </items>
+            </ComboBox>
+            <TextField id="LoginTextField" fx:id="LoginTextField111" layoutX="40.0" layoutY="184.0" prefHeight="31.0" prefWidth="516.0" promptText="Função/Cargo" styleClass="text-input" />
+            <TextField id="LoginTextField" fx:id="LoginTextField22" layoutX="173.0" layoutY="229.0" prefHeight="31.0" prefWidth="250.0" promptText="Salário" styleClass="text-input" />
+            <TextField alignment="CENTER" layoutX="205.0" layoutY="376.0" promptText="CRM" />
+            <Button layoutX="42.0" layoutY="452.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="172.0" styleClass="buttongreenbin" text="MODIFICAR" />
+            <Button layoutX="383.0" layoutY="452.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="172.0" styleClass="buttongreenbin" text="REMOVER" />            
+                        
+            </children>
+        </Pane>
+        <Label layoutX="187.0" layoutY="43.0" text="MODIFICAR/REMOVER  ESPECIALISTA" />
+        <Label id="errorLabel" fx:id="errorLabel" layoutX="507.0" layoutY="26.0" prefHeight="54.0" prefWidth="613.0" />
+    </children>
+</AnchorPane>

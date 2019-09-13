@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="752.0" prefWidth="1200.0" styleClass="backgroundHome" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.Controller.LoginController">
+    <stylesheets>
+        <URL value="@/css/Styles.css" />
+    </stylesheets>
+   <children>
+      <Pane layoutX="394.0" layoutY="140.0" prefHeight="370.0" prefWidth="383.0" styleClass="backgroundClean" >
+         <children>
+            <Button layoutX="112.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="LOGIN" />
+            <TextField id="LoginTextField" fx:id="LoginTextField" layoutX="81.0" layoutY="177.0" prefHeight="31.0" prefWidth="250.0" promptText="Usuario" styleClass="text-input"  />
+            <PasswordField id="SenhaPasswordField" fx:id="SenhaPasswordField" layoutX="81.0" layoutY="229.0" prefHeight="31.0" prefWidth="250.0" promptText="Senha" styleClass="text-input"  />
+            <Label layoutX="116.0" layoutY="61.0" text="BEM VINDO DE VOLTA" />
+            <Label id="errorLabel" fx:id="errorLabel" layoutX="40.0" layoutY="106.0" prefHeight="54.0" prefWidth="305.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

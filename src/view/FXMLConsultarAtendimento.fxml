@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+
+<AnchorPane id="AnchorPane" fx:id="AnchorPane" prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="business.Controller.LoginController">
+    <stylesheets>
+        <URL value="@/css/Styles.css" />
+    </stylesheets>
+    <children>
+        <Pane layoutX="40.0" layoutY="76.0" prefHeight="539.0" prefWidth="1129.0" styleClass="backgroundClean">
+            <children>
+                <Button layoutX="130.0" layoutY="434.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="MODIFICAR" />
+                <TextField id="LoginTextField" fx:id="LoginTextField" layoutX="40.0" layoutY="103.0" prefHeight="31.0" prefWidth="250.0" promptText="CPF ou código do Paciente" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField11" layoutX="660.0" layoutY="237.0" prefHeight="31.0" prefWidth="250.0" promptText="Setor" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField2" layoutX="41.0" layoutY="189.0" prefHeight="31.0" prefWidth="250.0" promptText="CPF ou código do Médico" styleClass="text-input" />
+                <TextField id="LoginTextField" fx:id="LoginTextField21" layoutX="660.0" layoutY="151.0" prefHeight="31.0" prefWidth="110.0" promptText="Hora" styleClass="text-input" />
+            <Label layoutX="41.0" layoutY="143.0" prefHeight="31.0" prefWidth="250.0" />
+            <Label layoutX="40.0" layoutY="237.0" prefHeight="31.0" prefWidth="250.0" />
+            <Button layoutX="326.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="PROCURAR" />
+            <Button layoutX="326.0" layoutY="189.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="PROCURAR" />
+            <TextField id="LoginTextField" fx:id="LoginTextField111" layoutX="660.0" layoutY="292.0" prefHeight="31.0" prefWidth="250.0" promptText="Sala" styleClass="text-input" />
+            <Button layoutX="326.0" layoutY="292.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="PROCURAR" />
+            <Label layoutX="41.0" layoutY="340.0" prefHeight="31.0" prefWidth="250.0" />
+            <TextField id="LoginTextField" fx:id="LoginTextField22" layoutX="41.0" layoutY="290.0" prefHeight="31.0" prefWidth="250.0" promptText="Código TIPO" styleClass="text-input" />
+            <DatePicker layoutX="660.0" layoutY="103.0" prefHeight="31.0" prefWidth="250.0" />
+            <TextField id="LoginTextField" fx:id="LoginTextField211" layoutX="800.0" layoutY="150.0" prefHeight="31.0" prefWidth="110.0" promptText="Minuto" styleClass="text-input" />
+            <Button layoutX="339.0" layoutY="434.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="REMOVER" />
+            <Button layoutX="592.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleButtonLogin" prefHeight="31.0" prefWidth="160.0" styleClass="buttongreenbin" text="PROCURAR" />
+            <TextField id="LoginTextField" fx:id="LoginTextField1" layoutX="306.0" layoutY="26.0" prefHeight="31.0" prefWidth="250.0" promptText="ID/CÓDIGO Atendimento" styleClass="text-input" />            
+                        
+            </children>
+        </Pane>
+        <Label layoutX="40.0" layoutY="30.0" prefHeight="21.0" prefWidth="216.0" text="EDITAR ATENDIMENTO" />
+        <Label id="errorLabel" fx:id="errorLabel" layoutX="241.0" layoutY="26.0" prefHeight="54.0" prefWidth="879.0" />
+    </children>
+</AnchorPane>

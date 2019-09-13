@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/ENG/MedicalAnalytics/src/view/FXMLDashBoard.fxml</file>
+            <file>file:/E:/ENG/MedicalAnalytics/src/view/FXMLCadastroPaciente.fxml</file>
+            <file>file:/E:/ENG/MedicalAnalytics/src/business/Controller/FXMLPacienteController.java</file>
+            <file>file:/E:/ENG/MedicalAnalytics/src/infra/DAO/usuariosDAO.java</file>
+            <file>file:/E:/ENG/MedicalAnalytics/src/view/FXMLConsultarPaciente.fxml</file>
+        </group>
+    </open-files>
+</project-private>
